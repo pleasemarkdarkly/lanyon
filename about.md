@@ -3,27 +3,16 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<div style="text-align: center"><img src="{{ site.baseurl }}/images/me.jpg" alt="me" style="width: 700px;"/></div>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I am a pusher of buttons physically and metaphorically.  
 
-There are currently two themes built on Poole:
+I love technology; all spectrums from smartwatches to supercomputers, desktop software to web apps, embedded technology, consumer applications, devOps, orchestration, processor design, web apps , and triathlons. Recently, I've been emersed in cryptocurrency, concensus mechanisms, zero knowledge proofs, cryptoeconomics and consumer blockchain applications.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+You can contact me for coffee or a "what's up" email. Or try any of the social media platforms to "poke", "tweet", "dm", "pm", or "snap" me.  
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+### Contact me
 
-## Setup
+[pretty at pleasemarkdarkly dot com](mailto:pretty@pleasemarkdarkly.com)
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Updated as of {{ site.time | date_to_string: "ordinal", "US" }}

@@ -1,22 +1,64 @@
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Please Mark Darkly
+tagline:             'Because marking lightly is hard to see.'
+description:         'American Americanist'
+url:                 https://pleasemarkdarkly.github.io
 baseurl:             ''
 paginate:            5
-permalink:           pretty
+permalink:           
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Mark Phillips
+  url:               https://pleasemarkdarkly.github.io
+  email:             mark.phillips@gmail.com
+  avatar: "https://avatars2.githubusercontent.com/u/55382229?s=400&amp;u=abaaa84f61e80a8e405fb1558bf23ba1127bd327&amp;v=4"
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: pretty@pleasemarkdarkly
+  facebook: 
+  flickr:
+  github: pleasemarkdarkly
+  instagram: prettypleasemarkdarkly
+  linkedin: markedphillips
+  pinterest: pleasemarkdarkly
+  rss: # just type anything here for a working RSS icon
+  twitter: plsmarkdarkly
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
 
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Custom vars
-version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+version:             0.0.5
+google_analytics_id: UA-154730990-3
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
